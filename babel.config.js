@@ -31,6 +31,7 @@ module.exports = api => {
         ]
       ],
       plugins: [
+        '@babel/plugin-proposal-optional-chaining',
         '@babel/plugin-proposal-class-properties',
         ({ types }) => ({
           visitor: {
